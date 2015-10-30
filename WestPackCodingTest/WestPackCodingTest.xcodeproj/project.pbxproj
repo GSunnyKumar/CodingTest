@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4D00AE51BE3AEB8005B41C4 /* ServiceHandlerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D00AE31BE3AEB8005B41C4 /* ServiceHandlerTest.m */; };
+		F4D00AE61BE3AEB8005B41C4 /* ViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F4D00AE41BE3AEB8005B41C4 /* ViewControllerTest.m */; };
 		F4F4BD0C1BE3AAA5003A63A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4BD0B1BE3AAA5003A63A1 /* main.m */; };
 		F4F4BD0F1BE3AAA5003A63A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4BD0E1BE3AAA5003A63A1 /* AppDelegate.m */; };
 		F4F4BD121BE3AAA5003A63A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4BD111BE3AAA5003A63A1 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		F4F4BD171BE3AAA5003A63A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F4BD161BE3AAA5003A63A1 /* Images.xcassets */; };
 		F4F4BD1A1BE3AAA5003A63A1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F4BD181BE3AAA5003A63A1 /* LaunchScreen.xib */; };
 		F4F4BD261BE3AAA5003A63A1 /* WestPackCodingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4BD251BE3AAA5003A63A1 /* WestPackCodingTestTests.m */; };
+		F4F4BD341BE3AC44003A63A1 /* ServiceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4BD2F1BE3AC44003A63A1 /* ServiceHandler.m */; };
+		F4F4BD351BE3AC44003A63A1 /* WeatherForecastModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F4BD331BE3AC44003A63A1 /* WeatherForecastModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F4D00AE31BE3AEB8005B41C4 /* ServiceHandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceHandlerTest.m; sourceTree = "<group>"; };
+		F4D00AE41BE3AEB8005B41C4 /* ViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerTest.m; sourceTree = "<group>"; };
 		F4F4BD061BE3AAA5003A63A1 /* WestPackCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WestPackCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F4BD0A1BE3AAA5003A63A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F4BD0B1BE3AAA5003A63A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,11 @@
 		F4F4BD1F1BE3AAA5003A63A1 /* WestPackCodingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WestPackCodingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F4BD241BE3AAA5003A63A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4F4BD251BE3AAA5003A63A1 /* WestPackCodingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WestPackCodingTestTests.m; sourceTree = "<group>"; };
+		F4F4BD2F1BE3AC44003A63A1 /* ServiceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceHandler.m; sourceTree = "<group>"; };
+		F4F4BD301BE3AC44003A63A1 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F4F4BD311BE3AC44003A63A1 /* ServiceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceHandler.h; sourceTree = "<group>"; };
+		F4F4BD321BE3AC44003A63A1 /* WeatherForecastModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherForecastModel.h; sourceTree = "<group>"; };
+		F4F4BD331BE3AC44003A63A1 /* WeatherForecastModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherForecastModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +94,10 @@
 			children = (
 				F4F4BD0D1BE3AAA5003A63A1 /* AppDelegate.h */,
 				F4F4BD0E1BE3AAA5003A63A1 /* AppDelegate.m */,
-				F4F4BD101BE3AAA5003A63A1 /* ViewController.h */,
-				F4F4BD111BE3AAA5003A63A1 /* ViewController.m */,
-				F4F4BD131BE3AAA5003A63A1 /* Main.storyboard */,
+				F4F4BD361BE3AD78003A63A1 /* Model */,
+				F4F4BD371BE3AD80003A63A1 /* View */,
+				F4F4BD381BE3AD85003A63A1 /* Controller */,
+				F4F4BD391BE3ADA5003A63A1 /* Utils */,
 				F4F4BD161BE3AAA5003A63A1 /* Images.xcassets */,
 				F4F4BD181BE3AAA5003A63A1 /* LaunchScreen.xib */,
 				F4F4BD091BE3AAA5003A63A1 /* Supporting Files */,
@@ -106,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				F4F4BD251BE3AAA5003A63A1 /* WestPackCodingTestTests.m */,
+				F4D00AE31BE3AEB8005B41C4 /* ServiceHandlerTest.m */,
+				F4D00AE41BE3AEB8005B41C4 /* ViewControllerTest.m */,
 				F4F4BD231BE3AAA5003A63A1 /* Supporting Files */,
 			);
 			path = WestPackCodingTestTests;
@@ -117,6 +131,42 @@
 				F4F4BD241BE3AAA5003A63A1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4F4BD361BE3AD78003A63A1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4BD321BE3AC44003A63A1 /* WeatherForecastModel.h */,
+				F4F4BD331BE3AC44003A63A1 /* WeatherForecastModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F4F4BD371BE3AD80003A63A1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4BD131BE3AAA5003A63A1 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F4F4BD381BE3AD85003A63A1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4BD101BE3AAA5003A63A1 /* ViewController.h */,
+				F4F4BD111BE3AAA5003A63A1 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F4F4BD391BE3ADA5003A63A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F4F4BD311BE3AC44003A63A1 /* ServiceHandler.h */,
+				F4F4BD2F1BE3AC44003A63A1 /* ServiceHandler.m */,
+				F4F4BD301BE3AC44003A63A1 /* Constants.h */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4F4BD121BE3AAA5003A63A1 /* ViewController.m in Sources */,
+				F4F4BD351BE3AC44003A63A1 /* WeatherForecastModel.m in Sources */,
 				F4F4BD0F1BE3AAA5003A63A1 /* AppDelegate.m in Sources */,
+				F4F4BD341BE3AC44003A63A1 /* ServiceHandler.m in Sources */,
 				F4F4BD0C1BE3AAA5003A63A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,7 +281,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4D00AE51BE3AEB8005B41C4 /* ServiceHandlerTest.m in Sources */,
 				F4F4BD261BE3AAA5003A63A1 /* WestPackCodingTestTests.m in Sources */,
+				F4D00AE61BE3AEB8005B41C4 /* ViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +472,7 @@
 				F4F4BD2B1BE3AAA5003A63A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4F4BD2C1BE3AAA5003A63A1 /* Build configuration list for PBXNativeTarget "WestPackCodingTestTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +481,7 @@
 				F4F4BD2E1BE3AAA5003A63A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
